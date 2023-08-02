@@ -1,0 +1,144 @@
+/* :root {
+  background: rgb(5, 139, 72);
+}
+html {
+  max-width: 720px;
+  background: blue;
+}
+body {
+  background: #fff;
+}
+* {
+  color: red;
+}
+h1 {
+  color: aqua;
+}
+h1 {
+  color: darkblue;
+}
+.box {
+  background: rgb(163, 158, 158);
+}
+#user {
+  color: yellow;
+}
+h1,
+h2#user,
+button {
+  color: green;
+}
+.button {
+  background: red;
+  color: black;
+}
+div > p {
+  color: rgb(24, 107, 103);
+} */
+
+.card-dark {
+  background: #c7c5c5;
+}
+
+.item {
+  color: blueviolet;
+}
+.item:first-child {
+  color: yellow;
+}
+.item:last-child {
+  color: rgb(37, 207, 88);
+}
+.item:only-child {
+  color: rgb(241, 144, 17);
+}
+.item:first-of-type {
+  color: rgb(9, 141, 42);
+}
+.item:last-of-type {
+  color: rgb(226, 19, 19);
+}
+.item:only-of-type {
+  color: rgb(13, 13, 14);
+}
+.item:nth-child(3n - 2) {
+  color: rgb(122, 199, 235);
+}
+.item:nth-last-child(3n - 2) {
+  color: rgb(16, 194, 105);
+}
+p:not(.item) {
+  color: rgb(71, 41, 41);
+}
+#test:target {
+  color: red;
+}
+.link:link {
+  color: aqua;
+}
+.link:hover {
+  color: green;
+}
+.card:hover {
+  background: rgb(73, 71, 71);
+}
+.link:active {
+  color: rgb(145, 43, 57);
+}
+.card:active {
+  background: rgb(145, 43, 57);
+}
+input {
+  background-color: azure;
+}
+input:focus {
+  background-color: blueviolet;
+}
+.card:focus-within {
+  background: red;
+}
+.card:lang(en) > span::after {
+  background: rebeccapurple;
+}
+button {
+  background-color: aquamarine;
+}
+button:enabled {
+  background-color: rgb(112, 158, 143);
+}
+button:disabled {
+  background-color: rgb(224, 53, 67);
+}
+.inp:read-write {
+  background-color: darkgoldenrod;
+}
+.inp:read-only {
+  background-color: rgb(177, 169, 149);
+}
+input[type='checkbox']:checked ~ span {
+  background-color: cornflowerblue;
+}
+.valid:valid {
+  background: yellow;
+}
+.valid:invalid {
+  background: rgb(77, 77, 3);
+}
+.valid:optional {
+  background: rgb(5, 219, 130);
+}
+.number:focus {
+  background: grey;
+}
+.number:out-of-range {
+  background: red;
+}
+.number:in-range {
+  background: rgb(0, 255, 85);
+}
+.number:invalid {
+  background: red;
+}
+input:placeholder-shown ~ span {
+  background: rgb(92, 32, 42);
+}

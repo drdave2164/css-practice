@@ -1,7 +1,62 @@
-html {
-  max-width: 720px;
+.card {
+  border-color: red;
 }
+.card > p {
+  color: green;
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke: 1px blue;
+}
+p:focus,
+p:active,
+p:hover {
+  -webkit-text-fill-color: rgb(30, 2, 107);
+  -webkit-text-stroke: 1px rgb(163, 228, 11);
 
-body {
-  background: #fff;
+  direction: rtl;
+}
+#test {
+  color: unset;
+  -webkit-text-fill-color: unset;
+  -webkit-text-stroke: unset;
+  text-align: start;
+  letter-spacing: 3;
+}
+span {
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: solid underline red;
+}
+span:hover {
+  text-decoration-line: overline;
+}
+pre {
+  text-align: center;
+  text-transform: uppercase;
+  tab-size: 2;
+}
+* {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  font-display: swap;
+}
+span {
+  font-size: larger;
+  font-weight: lighter;
+  font-style: oblique;
+}
+p {
+  font-stretch: expanded;
+}
+.test {
+  display: none;
+}
+.block {
+  display: block;
+  background: rgb(187, 183, 183);
+  margin: auto;
+  min-width: 10px;
+  max-width: min-content;
+  min-height: 100px;
+  max-height: max-content;
 }
