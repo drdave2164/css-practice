@@ -22,7 +22,7 @@
 		</div>
 		{{/each}}
 
-		<a href="#" class="massages_link">All messages</a>
+		<a href="#" class="messages_link">All messages</a>
 	</div>
 	{{/with}}
 	{{#with form}}
@@ -47,6 +47,13 @@
 		<p class="form_info">{{info}}</p>
 	</form>
 	{{/with}}
+
+	{{#each advantages}}
+	<div class="advantage">
+		<strong>{{title}}</strong>
+		<p>{{text}}</p>
+	</div>
+	{{/each}}
 </main>
 
 <div class="advantages">
