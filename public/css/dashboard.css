@@ -402,4 +402,25 @@ body {
       display: none;
     }
   }
+  @media all and (width < 720px) {
+    .analytic__block {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+    }
+    .content__block {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+  }
+  @media all and (width < 600px) {
+    .analytic__block {
+      grid-template-columns: 1fr;
+    }
+    .purchase__box {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .paymant__form {
+      grid-template-columns: 1fr;
+    }
+  }
 }
